@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio studentského webového vývojáře.">
+  <meta name="theme-color" content="#080b18">
+  <title>Samuel Němčík — web developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#domu" aria-label="Samuel Němčík — domů">SN<span>.</span></a>
+    <nav aria-label="Hlavní navigace">
+      <a href="#o-mne">O mně</a>
+      <a href="#projekty">Projekty</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <div class="validation-buttons" aria-label="Validátory">
+      <a href="https://validator.w3.org/check?uri=https://sameul67.github.io/" target="_blank" rel="noopener noreferrer">HTML validátor</a>
+      <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://sameul67.github.io/" target="_blank" rel="noopener noreferrer">CSS validátor</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="domu">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> Hráč 01 / Student a začínající vývojář</p>
+        <h1>Ahoj, hráči.<br>Jsem Samuel.<br></h1>
+        <p class="intro">Tvořím jednoduché a přehledné weby. Učím se nové věci a každý projekt je pro mě příležitost posunout se dál.</p>
+        <a class="button" href="#projekty">Spustit prohlídku <span aria-hidden="true">↘</span></a>
+      </div>
+      <div class="hero-art">
+        <svg class="robot-illustration" viewBox="0 0 320 360" role="img" aria-labelledby="robot-title">
+          <title id="robot-title">Animovaný robot</title>
+          <g class="robot-antenna">
+            <path d="M160 48V27" fill="none" stroke="#55f6ed" stroke-width="6" stroke-linecap="round"/>
+            <circle cx="160" cy="20" r="9" fill="#d5ff68"/>
+          </g>
+          <g class="robot-head">
+            <rect x="72" y="52" width="176" height="132" rx="38" fill="#172743" stroke="#55f6ed" stroke-width="5"/>
+            <path d="M95 69h130" stroke="#ffffff" stroke-opacity=".12" stroke-width="4" stroke-linecap="round"/>
+            <rect x="98" y="95" width="42" height="31" rx="13" fill="#55f6ed" class="robot-eye"/>
+            <rect x="180" y="95" width="42" height="31" rx="13" fill="#55f6ed" class="robot-eye"/>
+            <path d="M133 151q27 17 54 0" fill="none" stroke="#d5ff68" stroke-width="6" stroke-linecap="round"/>
+            <circle cx="59" cy="118" r="10" fill="#ff65bd"/>
+            <circle cx="261" cy="118" r="10" fill="#ff65bd"/>
+          </g>
+          <g class="robot-body">
+            <path d="M104 196q0-12 12-12h88q12 0 12 12l18 112q2 14-12 14H98q-14 0-12-14z" fill="#172743" stroke="#55f6ed" stroke-width="5"/>
+            <rect x="125" y="213" width="70" height="52" rx="14" fill="#0b1224" stroke="#8da4cb" stroke-width="3"/>
+            <circle cx="145" cy="239" r="7" fill="#d5ff68"/>
+            <circle cx="175" cy="239" r="7" fill="#ff65bd"/>
+            <path d="M142 286h36" stroke="#55f6ed" stroke-width="5" stroke-linecap="round"/>
+          </g>
+          <g fill="none" stroke="#55f6ed" stroke-linecap="round" stroke-width="12">
+            <path class="robot-arm robot-arm-left" d="m99 210-25 36 13 28"/>
+            <path class="robot-arm robot-arm-right" d="m221 210 25 36-13 28"/>
+            <path d="m132 322-6 17m62-17 6 17"/>
+          </g>
+          <g fill="#d5ff68">
+            <circle cx="87" cy="276" r="9"/>
+            <circle cx="233" cy="276" r="9"/>
+          </g>
+        </svg>
+        <span class="photo-label"><span class="status-dot"></span> Online / Právě tvořím</span>
+        <span class="level-label">LEVEL 01 <span>▶</span></span>
+      </div>
+    </section>
+
+    <section class="section about" id="o-mne">
+      <div>
+        <p class="eyebrow">01 / Profil hráče</p>
+        <h2>Učím se tím,<br>že tvořím.</h2>
+      </div>
+      <div class="about-copy">
+        <p>Jsem student, kterého baví webový vývoj a nápady proměněné ve funkční stránky. Zatím sbírám zkušenosti, zkouším nové technologie a pracuji na svých projektech.</p>
+        <div class="tags" aria-label="Technologie">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projekty">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">02 / Výběr misí</p>
+          <h2>Moje projekty</h2>
+        </div>
+        <span class="project-count">3 mise nalezeny</span>
+      </div>
+      <div class="project-grid">
+        <a class="project-card project-pink" href="https://sameul67.github.io/pva-projekt1/" target="_blank" rel="noopener noreferrer" aria-label="Otevřít web PVA projekt 1">
+          <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Ukázka webové stránky na monitoru" loading="lazy">
+          <span class="project-number">01</span>
+          <div>
+            <p class="project-type">HTML / Web</p>
+            <h3>PVA projekt 1</h3>
+            <p>Jeden z mých prvních webových projektů. Otevřít web.</p>
+          </div>
+          <span class="project-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="project-card project-yellow" href="https://sameul67.github.io/konicek.github.io/" target="_blank" rel="noopener noreferrer" aria-label="Otevřít web Koniček">
+          <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Notebook a poznámky při práci na projektu" loading="lazy">
+          <span class="project-number">02</span>
+          <div>
+            <p class="project-type">Web / GitHub Pages</p>
+            <h3>Koniček</h3>
+            <p>Web o mých oblíbených počítačových hrách. Otevřít web.</p>
+          </div>
+          <span class="project-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="project-card project-blue" href="https://sameul67.github.io/League/" target="_blank" rel="noopener noreferrer" aria-label="Otevřít web League">
+          <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg" alt="Ahri z League of Legends" loading="lazy">
+          <span class="project-number">03</span>
+          <div>
+            <p class="project-type">Web / League of Legends</p>
+            <h3>League</h3>
+            <p>Můj nejnovější web o League of Legends. Otevřít web.</p>
+          </div>
+          <span class="project-arrow" aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="contact" id="kontakt">
+      <p class="eyebrow">03 / Další mise</p>
+      <h2>Pojďme se<br><span>spojit.</span></h2>
+      <a class="button button-light" href="https://email.seznam.cz/" target="_blank" rel="noopener noreferrer">Napiš mi <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Samuel Němčík</span>
+    <a href="#domu">Zpět nahoru ↑</a>
+  </footer>
+  <a class="robot-guide" href="#projekty" aria-label="Robot tě provede k projektům">
+    <svg viewBox="0 0 64 64" aria-hidden="true">
+      <path d="M32 10V5m-4 0h8" fill="none" stroke="#55f6ed" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="32" cy="5" r="3" fill="#d5ff68"/>
+      <rect x="10" y="13" width="44" height="34" rx="11" fill="#172743" stroke="#55f6ed" stroke-width="3"/>
+      <rect x="17" y="23" width="10" height="8" rx="3" fill="#55f6ed"/>
+      <rect x="37" y="23" width="10" height="8" rx="3" fill="#55f6ed"/>
+      <path d="M25 38q7 5 14 0" fill="none" stroke="#d5ff68" stroke-width="3" stroke-linecap="round"/>
+      <path d="M20 49v8m24-8v8" stroke="#55f6ed" stroke-width="4" stroke-linecap="round"/>
+    </svg>
+    <span>Pojďme dál</span>
+  </a>
+</body>
+</html>
